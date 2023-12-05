@@ -1,0 +1,20 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("سكربت فيه كثير اشياء من صنعي", "DarkTheme")
+local Tab = Window:NewTab("السكربتات")
+local Section = Tab:NewSection("السكربتات")
+Section:NewButton("سكربت الكيبورد", "سكربت تبع الكيبورد", function()
+    print("Clicked")loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
+    
+end)
+Section:NewButton("سكربت تحولات", "سكربت تحولات", function()
+    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+   
+end)
+Section:NewButton("سكربت ماب البيوت", "سكربت ماب البيوت", function()
+    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+   
+end)
+Section:NewButton("سكربت بلوكس فروت", "سكربت بلوكس فروت", function()
+    print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/zenhubbest"))()
+   
+end)
